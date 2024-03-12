@@ -1,0 +1,9 @@
+==================================
+*                                *
+*     (A) DAX and M Language     *
+*                                *
+==================================
+
+Power Query M formula language:
+source: https://learn.microsoft.com/en-us/powerquery-m/
+ 
