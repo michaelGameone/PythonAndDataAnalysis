@@ -3,4 +3,119 @@
 *          (A) Installation          *
 *                                    *
 ======================================
+There are some development environments for Data Analysis in Python.
+Blow are the list of these environment:
+(a) Anaconda
+- There is many different distributions of Python. "Anaconda" is one of these distributions.
+  |__ It is often used to develop data analytic programs in Python.
+  |__ Installation of "Anaconda":
+      |__ download site: https://www.anaconda.com/download
+	  |__ after the "Anaconda" is installed, set up the environment variables (Windows) as follows:
+	      (i) open the "Anaconda Prompt"
+          (ii) in the prompt, type "where conda"
+               It will show all the paths related to conda
+          (iii)	In Windows system, search "Environment Variables" and it will pop up the dialog box for "Environment Variables"
+                Put all the paths into here.   		  
+	  
+  
+  
+(b) Jupyter
+- It is popular tools for learning MI in python
+- It is a part of development inside "Anaconda"
 
+(c) Others
+- You can actually use any other IDE (such as PyCharm) to develop the same data analysis program in Python
+
+
+
+
+
+
+
+===============================================
+*                                             * 
+*     (B) Anaconda Virtual Environment        *
+*                                             *
+===============================================
+- Anaconda Virtual Environment allow you to set up virtual installations of Python and libraries on your computer
+- You can have multiple versions of Python or libraries and easily activate or deactivate these environments
+|__ source: https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html
+            https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+			
+
+
+(1) Create a new environment with a name called "helloKitty" with python 2.6
+    |__ conda create -n helloKitty python=2.6
+	
+(2a) Create a new environment with a name called "helloKitty" with a specific package
+    |__ conda create -n helloKitty numpy
+	
+(2b) Create a new environment with python and package in one go.
+    |__ conda create -n hellokitty python=2.6 numpy	
+	
+(3) create an environment with a specific version of a package:	
+    |__ conda create -n myenv scipy=0.17.3
+	
+(4) Install a package into the existing virtual environment
+    |__ conda install -n helloKitty numpy
+	OR with specific version
+	|__ conda install -n myenv scipy=0.17.3
+
+
+(5) Activate or Deactivate
+    |__ conda activate virtualEnvName 
+	    |__ it will set the current python environment in "virtualEnvName" environment setting 
+	|__ conda deactivate
+	    |__ it will deactivate the current virtual environment and revert back to the default environment
+		
+		
+(6) List out all the virtual environment
+    command ==> conda info --envs
+		
+
+
+======================================================
+*                                                    * 
+*         (C) .condarc file of Anaconda              *
+*                                                    *
+======================================================
+Creating and editing
+The .condarc file is not included by default, but it is automatically created in your home directory the first time you run the conda config command. To create or modify a .condarc file, open a terminal and enter the conda config command.
+
+The .condarc configuration file follows simple YAML syntax.
+
+|__ source: https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html
+
+
+* To automatically install pip or another program every time a new environment is created, add the default programs to the create_default_packages section of your .condarc configuration file.
+
+
+
+===============================================
+*                                             * 
+*           (D) Python command line           *
+*                                             *
+===============================================
+
+(a) Basic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+you can start execute python script by typing the following commands:
+command ==> python
+
+Then it will enter the scripting mode, where you can run any python code
+
+you can exit the python script mode by typing as follows:
+command ==> exit()
+
+
+
+(b) install package
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+command ==> pip
+
+
+===============================================
+*                                             * 
+*           (E) Python language               *
+*                                             *
+===============================================

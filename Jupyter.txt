@@ -1,0 +1,54 @@
+==============================================
+$                                            $
+$   (A) Open Jupyter in command line         $
+$                                            $
+==============================================
+
+- command: jupyter notebook
+
+(Step 1) go to the directory that contains the Jupyter notebook files that you want to work on
+(Step 2) type: jupyter notebook
+
+
+==============================================
+$                                            $
+$       (B) Create a new notebook            $
+$                                            $
+==============================================
+(1) on the right upper corner, there is a "new" button
+(2) in the drop down list, click "notebook"
+(3) choose the Python version after the prompt
+(4) you got a new python notebook
+
+
+==============================================
+$                                            $
+$       (C) Notebook structure               $
+$                                            $
+==============================================
+(1) The notebooks compose of a stack of "python cells"
+(2) each "cell" contains some lines of python codes. 
+    The cell ouput is the execution result of that python codes. 
+
+
+
+==============================================
+$                                            $
+$       (D) Notebook operation               $
+$                                            $
+==============================================
+
+(1) shift + enter: execute the code in the current cell and output
+
+(2) alt + enter: insert a new empty cell under the current cell
+
+(3) ctrl + s: save
+    
+(4) "File" -> "Save and Export Notebook As ..." -> "Executable Script": It will export the current notebook as python script
+
+
+(5) "Kernel" -> "Restart Kernel": when execution got stuck (maybe because of indefinite loop), it will stop the execution
+
+
+(6) "Code" -> "Markdown": it turn the current cell to be treated like some plain text without any execution
+
