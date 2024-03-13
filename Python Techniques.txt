@@ -111,7 +111,15 @@ command ==> exit()
 
 (b) install package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-command ==> pip
+command ==> pip install packageName
+
+e.g. pip install numpy
+
+for Anaconda distribution
+
+command ==> conda install packageName
+
+e.g. conda install numpy
 
 
 ===============================================
@@ -119,5 +127,8 @@ command ==> pip
 *           (E) Python language               *
 *                                             *
 ===============================================
+|__ Python Offical Tutorial
+    |__ source: https://docs.python.org/3/tutorial/index.html
+
 
 Python doesn't support "++" operator
