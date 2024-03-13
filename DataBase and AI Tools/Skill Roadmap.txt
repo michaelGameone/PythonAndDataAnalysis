@@ -1,0 +1,354 @@
+================================
+$                              $
+$  (Pre) Fundamental Math        $
+$                              $  
+================================
+Book
+|__ Algebra and Trigonmetery
+|__ Calculus
+|__ Advanced Maths
+
+
+
+================================
+$                              $
+$   (A) Data Analysis and AI   $
+$                              $  
+================================
+
+(1) Data Theory and Concept
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ Abstract Algebra (Book)
+|__ Nivida AI Introduction for beginner book (Book)
+|__ Mathematics for Machine Learning (Book)
+|__ Probability and Statistic (Book)
+|__ Udemy: The Data Science Course: Complete Data Science Bootcamp 2024
+|__ Machine Learning Refined (Book)
+|__ Database System (Book)
+|__ BioInformatics Algorithms
+
+
+
+(2) Practical AI and Data Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ Tensor Flow AI 
+|__ Tutorial
+    |__ Udemy: Deep Learning A-Z 2024: Neural Networks, AI & ChatGPT Prize
+	|__ Udemy: ChatGPR Complete Guide: Learn Midjourney, ChatGPT 4 & More
+	|__ Udemy: The Complete Prompt Engineering for AI Bootcamp
+	|__ Udemy: Microsoft Power BI Desktop for Business Intelligence
+	|__ Udemy: Microsoft Excel - Excel from Beginner to Advanced
+	|__ Udemy: TensorFlow Developer Certificate Bootcamp
+	|__ Udemy: the Ultimate Excel Programmer Course
+	|__ Udemy: Complete Tensorflow 2 and Keras Deep Learning Bootcamp
+	|__ Udemy: Python for Data Science and Machine Learning Bootcamp
+	
+
+
+(3) Database
+~~~~~~~~~~~~~~~~~~~~~~
+|__ Concept and Theory
+    |__ Example: Normalization, Functional Dependence
+	    |__ online resources: https://www.javatpoint.com/dbms-tutorial
+		
+
+|__ Tutorial
+    |__ Udemy: Complete SQL and Database Bootcamp
+	|__ Udemy: Fundamentals of Database Engineering
+	|__ Udemy: The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert		
+	|__ Udemy: MongoDB - The Complete Developer's Guide 2024
+	
+
+================================
+$                              $
+$ (B) Programming language     $
+$                              $  
+================================
+Book
+|__ Objective C Programming
+|__ .NET Components
+
+Tutorial
+|__ Udemy: Learn Advanced PHP Programming
+|__ Udemy: Java 17 Masterclass: Start Coding in 2024
+|__ Udemy: PHP for Beginners
+|__ Udemy: The Complete JavaScript Course 2024: From Zero to Expert!
+|__ Udemy: 100 Days of Code: The Complete Python Pro Bootcamp
+|__ Udemy: Typescript: The Complete DEveloper's Guide
+
+
+================================
+$                              $
+$         (C) Linux            $
+$                              $  
+================================
+|__ Book
+    |__ How Linux works
+
+|__ Tutorial
+    |__ Udemy: Complete Linux Training Course to Get Your Dream IT Job 2024
+    |__ Udemy: Secure Shell Fundamentals - Learn SSH By Configuring It
+	
+
+================================
+$                              $
+$  (D) Version Tracking        $
+$                              $  
+================================
+Book
+|__ Pro Git
+
+
+Tutorial
+|__ Udemy: The Git & Github Bootcamp
+
+
+
+
+================================
+$                              $
+$       (E) Automation         $
+$                              $  
+================================
+
+(1) DevOps CI/CD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ Tutorial
+    |__ Udemy: Docker Mastery: with Kubernetes + Swarm from a Docker Captain
+    |__ Udemy: DevOps Beginners to Advanced with Projects	
+	|__ Udemy: Docker and Kubernetes: The Complete Guide
+	|__ Udemy: The Ultimate Chef Training Course: DevOps Automation
+
+
+(2) Project Management
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ Tutorial
+    |__ Udemy: Mastering CI/CD with TeamCity and Octopus Deploy
+    |__ Udemy: Azure Devops Crash Course - Build CI/CD release pipelines	
+	|__ Udemy: Build+Deploy+Test with Jenkins 2.0
+	|__ Udemy: Learn JIRA with real-world examples(+Confluence bonus)
+	|__ Udemy: Devops Fundamentals - CI/CD with AWS+Docker+Ansible+Jenkins
+	|__ Udemy: DevOps Project 1 - CI/CD with Git Jenkins Ansible Kubernetes
+	
+
+
+(3) Administration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ Tutorial
+    |__ Udemy: Microsoft Power Automate - Complete Guide to Microsoft Power Automate
+	|__ Udemy: Linux Shell Scripting: A Project-Based Approach to Learning
+	|__ Udemy: Automate the Boring Stuff with Python Programming
+    |__ Udemy: Python and Excel PRogramming with OpenPyXL
+	
+
+
+================================
+$                              $
+$         (F) Build            $
+$                              $  
+================================
+Book:
+|__ Modern CMake for C++
+|__ C and C++ Compiling
+|__ CLR via C#
+|__ Crafting Interpreters
+
+
+Tutorial
+|__ Udemy: Master CMake for Cross-Platform C++ Project Building
+|__ Udemy: CMake, Test and Tooling for C/C++ Projects
+|__ Udemy: The Gradle Masterclass
+|__ Udemy: Apache Maven: Beginner to Guru
+
+
+
+================================
+$                              $
+$     (G) Game Engine          $
+$                              $  
+================================
+Tutorial
+|__ Udemy: The Ultimate Guide to Game Development with Unity (Offical)
+|__ Udemy: Unreal Engine 5 C++ DEveloper: Learn C++ & Make Video Games
+|__ Udemy: Unity 2D Game Developer Course Farming RPG
+|__ Udemy: Unreal Engine 4 C++ The Ultimate Game Developer Course
+|__ Udemy: Ultimate Unity Overview
+|__ Udemy: Unreal Engine 4 C++ The Ultimate Shooter Course
+|__ Udemy: Unreal Engine 4 Mastery: Create Multiplayer Games with C++
+|__ Udemy: Unreal Engine Blueprint
+|__ Udemy: Complete C# Unity Game DEveloper 2D
+|__ Udemy: Visual Effects for Games in Unity - Beginner to Intermediate
+|__ Udemy: Unreal Engine 5: The Complete Beginner's Course
+
+
+
+
+================================
+$                              $
+$  (H) Language Chain tool     $
+$                              $  
+================================
+|__ Tutorial
+	|__ Udemy: Microservices with NodeJS and React
+	|__ Udemy: Introduction to NGINX
+	|__ Udemy: Redis: The Complete Developer's Guide
+	|__ Udemy: RabbitMQ in Practice
+	|__ Udemy: Complete Guide to Elasticssearch
+	|__ Udemy: Python Django - Complete Course
+	|__ Udemy: Complete Guide to Protocol Buffers 3[Java, Golang, Python]
+	|__ Udemy: Servlets and JSP Tutorial for Beginners!
+	|__ Udemy: Build an app with ASPNET Core and Angular from scratch
+	|__ Udemy: JSP, Servlets and JDBC for Beginners: Build a Database App
+	|__ Udemy: Master Microservices with Spring Boot and Spring Cloud
+	|__ Udemy: Complete React Devloper (w/ Redux, Hooks, GraphQL)
+	|__ Udemy: The Complete Node.js Developer Course
+	|__ Udemy: Modern React with Redux
+	|__ Udemy: Learn Firebase Core with React
+	|__ Udemy: React - The Complete Guide 2024(incl. React Router & Redux)
+	|__ Udemy: Spring Boot 3, Spring 6 & Hibernate for Beginners
+	|__ Udemy: NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
+	|__ Udemy: How to Build a JAVA Spring Boot Web Application from Scratch
+	|__ Udemy: Node.js, Express, MongoDB & More: The Complete Bootcamp 2024
+	|__ Udemy: Angular - The Complete Guide
+	|__ Udemy: The Complete React Native + Hooks Course
+	
+
+
+================================
+$                              $
+$       (I) Networking         $
+$                              $  
+================================
+
+Tutorial
+|__ Udemy: IP Addressing and Subnetting - Zero to Hero
+|__ Udemy: Fundamentals of Network Engineering
+|__ Udemy: The Complete Networking Fundamentals Course. Your CCNA start
+
+
+
+================================
+$                              $
+$ (J) Testing and Performance  $
+$                              $  
+================================
+Tutorial
+|__ Udemy: Detecting Memory Leaks in C/C++ Applications
+|__ Udemy: Java Application Performance Tuning and Memory Management
+|__ Udemy: MasterClass Software Testing with Jira & Agile- Be a QA Lead
+|__ Udemy: Learn Manual Software TEsting + Agile with Jira Tool
+|__ Udemy: Automated Software Testing with Python
+|__ Udemy: Top 150+ QA Automation Interview Questions & Resume Tips
+|__ Udemy: Quick Introduction to Postman and API Testing for Beginners
+|__ Udemy: Prometheus I The Complete Hands-On for Monitoring & Alerting
+|__ Udemy: C++ Unit Testing: Google Test and Google Mock
+|__ Udemy: Unit Testing for C# Developers
+
+
+================================
+$                              $
+$   (K) Software Design        $
+$                              $  
+================================
+|__ Concept and Theory
+    |__ C++ Software Design
+	|__ Architecture Patterns with Python
+	|__ Clean Architecture
+	|__ Algorithm Illuminated
+    |__ Algorithms
+	|__ Game Programming Patterns
+	|__ Design Pattern
+	
+|__ Tutorial
+    |__ Udemy: Software Architecture & Design of Modern Large Scale Systems
+    |__ Udemy: The Complete Cloud Computing Software Architecture Patterns	
+	|__ Udemy: Microservices with NodeJS and React
+	|__ Udemy: Learn Multithreading in C++
+    |__ Udemy: Modern C++ Concurrency in Depth (C++17/20)
+    |__ Udemy: Software Architecture & System Design Practical Case Studies
+	|__ Udemy: Java Multithreading, Concurrency & Performance Optimization
+	|__ Udemy: Distributed System & Cloud Computing with Java
+	|__ Udemy: Master the COding Interview: Data Structures + Algorithms
+	
+	
+
+================================
+$                              $
+$     (L) Web Programming      $
+$                              $  
+================================
+|__ Tutorial
+    |__ Udemy: The Complete 2024 Web DEvelopment Bootcamp
+	|__ Udemy: The Complete SSL and TLS Guide: HTTP to HTTPS
+	|__ Udemy: The Web Developer Bootcamp 2024
+	
+
+
+
+================================
+$                              $
+$ (M) Platform Programming     $
+$                              $  
+================================
+Book
+|__ Android Programming
+
+Tutorial
+|__ Udemy: Ionic - Build IOS, Android & Web Apps with Ionic & Angular
+|__ Udemy: The Complete Android Oreo DEveloper Course - Build 23 Apps!
+|__ Udemy: Build Web Apps with React & Firebase
+|__ Udemy: Android Firebase Firestore - Masterclass - Build a Shop App
+|__ Udemy: Create a Twitter Clone with Node.js, Socket.IO and MongoDB
+|__ Udemy: IOS & Swift - The Complete IOS APP DEvelopment Bootcamp
+|__ Udemy: Object Oriented PHP & MVC
+
+
+================================
+$                              $
+$  (N) Grapical Programming    $
+$                              $  
+================================
+Book
+|__ OpenGL ES 2 for Android
+|__ OpenGL ES 2.0 Programming Guide
+|__ OpenGL 4 Shading Language Cookbook
+
+Tutorial
+|__ Udemy: Learn the Vulkan API with C++
+|__ Udemy: Computer Graphics with Modern OpenGL and C++
+|__ Udemy: Learn GLSL Shaders from Scratch
+|__ Udemy: Shader Development from Scratch for Unity with Cg
+|__ Udemy: Learn Unity Shaders from scratch
+
+
+
+================================
+$                              $
+$    (O) Cloud Computing       $
+$                              $  
+================================
+Tuorial
+|__ Udemy: Apache Kafka Series - Learn Apache Kafka for Beginners v3
+|__ Udemy: Ultimate AWS Certified Cloud Practitioner CLF-C02
+|__ Udemy: Ultimate AWS Certified Solutions Architect Associate SAA-C03
+|__ Udemy: Ultimate AWS Certified DEveloper ASsociate 2024 NEW DVA-C02
+
+
+================================
+$                              $
+$  (P) Crytography             $
+$                              $  
+================================
+Tutorial
+|__ Crytography Beginners Guide with openSSL
+|__ Encrption for Beginners with OpenSSL
+
+
+
+================================
+$                              $
+$        (Q) Finance           $
+$                              $  
+================================
+|__ Corporate Finance (Book)
+|__ Macroeconomics (Book)

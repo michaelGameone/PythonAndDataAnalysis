@@ -1,0 +1,73 @@
+==========================================
+$										 $
+$  (A) Create and Initialize a new Repo  $ 
+$										 $ 	
+==========================================
+(1) git init
+
+
+
+==========================================
+$										 $
+$        (B) Stage the changes           $ 
+$										 $ 	
+==========================================
+(1a) git add [file 1 name] [file 2 name]
+(1b) git add .
+     |___ stage all changed files
+
+
+
+==========================================
+$										 $
+$  (C) commit staged changes to repo     $ 
+$										 $ 	
+==========================================
+(1) git commit -m "commit message"
+(2) git commit --amend
+    |__ append the current staged changes to the previous commit
+	    e.g. add back the missing files for the last commit 
+
+
+==========================================
+$										 $
+$  (D) check the current status          $ 
+$										 $ 	
+==========================================
+(1) git status
+
+
+
+==========================================
+$										 $
+$  (E) check the commit log              $ 
+$										 $ 	
+==========================================
+(1a) git log
+(1a) git log --oneline
+
+
+
+==========================================
+$										 $
+$ (F) set the default editor for commit  $
+$										 $ 	
+==========================================
+The command used to set up your preferred editor
+|__ https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+
+for example:
+(VS Code)
+git config --global core.editor "code --wait"
+
+
+==========================================
+$										 $
+$         (G) .gitignore                 $
+$										 $ 	
+==========================================
+(1) create a file ".gitignore"
+(2) "FolderName/" will ignore entire directory
+(3) "*.log" will ignore with ".log" file extension
+
+

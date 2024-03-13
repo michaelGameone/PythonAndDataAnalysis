@@ -1,0 +1,151 @@
+(A) Create a stored procedure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===========================================================
+Below is the basic structure of stored procedure creation:=
+===========================================================
+Use TestDB;
+
+DeLimiter //
+
+Create procedure testProc(IN custID BIGINT)
+begin
+
+	SELECT count(*) as orderQty from Orders where CustomerID = custID;
+	
+end //
+
+delimiter ;
+==========================================================
+
+=======================================
+Below is to call the stored procedure
+=======================================
+use TestDB;
+CALL testProc(4);
+=======================================
+
+
+(B) DECLARE
+~~~~~~~~~~~~~~~~~~~
+|__ https://www.tutorialspoint.com/mysql/mysql_cursor_declare_statement.htm
+|__ it is used to declare a variable inside a stored procedure 
+|__ the format is like below:
+
+	declare [variable name] [data type] default [initized value]
+	
+
+(C) CURSOR
+~~~~~~~~~~~~~~~~~~~
+|__ a cursor is a handle for the row result returned from a query
+|__ the format is like below:
+
+	declare [variable name] cursor for [ sql query statment];
+	e.g. declare result cursor for select price from Orders where CustomerID = targetCustUID
+	
+|__ also the cursor should be declared after ALL other variables are declared.
+
+|__  must open before use and close cursor after use
+	
+	 open [cursor name]
+	 close [cursor name]
+
+|__ retrieve the value(s) of column(s) from the cursor
+|__ the following is the format:
+
+	fetch [cursor name] into [multiple variables]
+	
+	e.g.
+	fetch result into curPrice;
+	
+
+(D) Condition Handler
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ https://dev.mysql.com/doc/refman/8.0/en/declare-handler.html
+
+Below is the format:
+
+declare [handl_action] handler for [condition_value] [the statment being executed when condition value is met]
+
+handler_action: {
+    CONTINUE
+  | EXIT
+  | UNDO
+}
+
+condition_value: {
+    mysql_error_code
+  | SQLSTATE [VALUE] sqlstate_value
+  | condition_name
+  | SQLWARNING
+  | NOT FOUND
+  | SQLEXCEPTION
+}
+
+
+(E) Looping
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Below is the format:
+
+[loop name]: LOOP
+
+............ the logic inside the loop ............
+
+END LOOP [loop name];
+
+- quit the loop
+  |__ LEAVE [loop name];
+  
+
+
+(F) Example for Stored Procedure that retrieving rows from DB
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+use TestDB;
+
+-- DROP procedure IF EXISTS `CalculateTotalCost`;
+
+delimiter $$
+
+create procedure CalculateTotalCost(IN custID BIGINT)
+begin
+    declare totalCost INT default 0;
+    declare maxCost INT default 0;
+    declare curPrice INT default 0;
+	declare bFinished INTEGER DEFAULT 0;    
+    declare orderCusor cursor for select price from Orders where CustomerID = custID;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET bFinished = 1;
+    
+    open orderCusor;    
+    StartLoop: LOOP		
+        fetch orderCusor into curPrice;
+		IF bFinished = 1 THEN LEAVE StartLoop;
+		END IF;
+        SET totalCost = totalCost + curPrice;    
+    END LOOP StartLoop;    
+    close orderCusor;
+    
+    select max(price) into maxCost from Orders;
+    select totalCost, maxCost;        
+end $$
+
+delimiter ;
+
+
+
+(G) Variables
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|__ https://www.mysqltutorial.org/mysql-stored-procedure/variables-in-stored-procedures/
+
+
+
+
+
+  
+
+
+
+
+
+
+
+

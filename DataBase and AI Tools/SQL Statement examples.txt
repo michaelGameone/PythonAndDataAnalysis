@@ -1,0 +1,126 @@
+(A) Create a new Schema
+/////////////////////////////////
+
+Example 1:
+~~~~~~~~~~~~~~~~~~
+CREATE SCHEMA `TestDB` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+
+
+(B) Create a new Table 
+/////////////////////////////////
+USE TestDB;
+
+CREATE TABLE Customer (
+  `UID` BIGINT NOT NULL AUTO_INCREMENT,
+  `Nickname` VARCHAR(45) NULL DEFAULT '',
+  `age` INT NULL DEFAULT 0,
+  PRIMARY KEY (`UID`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+Pattern
+~~~~~~~~~~~
+|__ https://www.w3schools.com/sql/sql_constraints.asp
+
+CREATE TABLE [new table name here]
+(
+	['new field name'] [date type(e.g. INT/BIGINT)] [stating multiple constraints here (see "Constraints" session below)]
+	PRIMARY KEY(['the name of the field which is used as primary key'])
+)
+
+
+SQL "Constraints"
+~~~~~~~~~~~~~~~~~~~~~~
+NULL - null value is allowed for this field
+NOT NULL - Ensures that a column cannot have a NULL value
+AUTO_INCREMENT - the value is automatically incremented by 1 for a new row insertion.
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+
+
+
+(C) about the charset and collate:
+/////////////////////////////////
+|__ https://cloud.tencent.com/developer/article/1366841
+|__ utf8 and utf8mb4: Never use "utf8". Use "utf8mb4" instead due to legacy issue of mysql.
+
+utf8mb4_0900_ai_ci大体上就是unicode的进一步细分，0900指代unicode比较算法的编号（ Unicode Collation Algorithm version），
+ai表示accent insensitive（发音无关），例如e, è, é, ê 和 ë是一视同仁的。
+
+
+(D) FOREIGN KEY
+//////////////////////////
+|__ https://www.w3schools.com/sql/sql_foreignkey.asp
+|__ One of the field of Table A is referencing another field od Table B
+
+
+
+Example 1:
+~~~~~~~~~~~~~~~~~~~~~~
+Create TABLE Orders
+(
+	UID BIGINT NOT NULL AUTO_INCREMENT,
+    OrderID INT NOT NULL DEFAULT 0,
+    CustomerID BIGINT NOT NULL DEFAULT 0,
+    PRIMARY KEY(UID),
+    FOREIGN KEY(CustomerID) REFERENCES Customer(UID)
+)
+
+
+
+(E) Trigger
+////////////////////////////////////////////////////////
+|__ https://www.dbvis.com/thetable/sql-triggers-what-they-are-and-how-to-use-them/
+
+
+Create table OrderLog
+(
+	UID BIGINT NOT NULL AUTO_INCREMENT,
+    OrderID BIGINT NOT NULL DEFAULT 0,
+    CustomerID BIGINT NOT NULL DEFAULT 0,
+    createTime DATETIME NOT NULL DEFAULT NOW(),
+    primary key(UID),
+    foreign key(OrderID) references Orders(UID),
+    foreign key(CustomerID) references Customer(UID)    
+)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_0900_ai_ci;
+
+
+
+create a trigger (Syntax)
+~~~~~~~~~~~~~~~~~~~~~~~~
+CREATE
+    [DEFINER = user]
+    TRIGGER [IF NOT EXISTS] <trigger_name> 
+    <trigger_time> <trigger_event> 
+    ON <table_name> FOR EACH ROW
+    [<trigger_order>]
+    <trigger_body>
+
+
+Example 1:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+create trigger log_order
+after insert on Orders for each row
+	INSERT INTO OrderLog (OrderID,CustomerID) VALUES (new.UID, new.CustomerID); 
+	
+
+(F) Add new columns to an existing table
+ALTER TABLE `TestDB`.`Orders` 
+ADD COLUMN `price` INT NOT NULL DEFAULT 0 AFTER `CustomerID`;
+
+
+
+
+
+
+

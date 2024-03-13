@@ -1,0 +1,15 @@
+(A) SQL Interview questions
+//////////////////////////////////////
+https://www.coursera.org/articles/sql-interview-questions
+
+
+(B) Some important SQL concepts that will be asked during the interview
+//////////////////////////////////////////////////////////////////////////////
+(i) Trigger
+- https://www.dbvis.com/thetable/sql-triggers-what-they-are-and-how-to-use-them/
+
+
+
+(ii) FOREIGN KEY
+- https://www.w3schools.com/sql/sql_foreignkey.asp
+

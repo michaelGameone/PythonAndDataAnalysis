@@ -1,0 +1,10 @@
+https://www.geeksforgeeks.org/types-of-functional-dependencies-in-dbms/
+
+https://www.javatpoint.com/dbms-normalization
+
+https://www.javatpoint.com/dbms-keys
+
+https://www.simplilearn.com/functional-dependency-in-dbms-article
+
+https://monday.com/blog/project-management/functional-dependencies-2/
+

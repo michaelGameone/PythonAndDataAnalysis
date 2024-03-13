@@ -1,0 +1,10 @@
+(1) Tableau 
+(2) Polymer
+(3) Microsoft Power BI
+(4) Sisense
+(5) Google Looker
+(6) Akkio
+(7) MonkeyLearn (BI)
+
+Complete list:
+https://www.pluralsight.com/resources/blog/data/15-business-analytics-ai-tools 

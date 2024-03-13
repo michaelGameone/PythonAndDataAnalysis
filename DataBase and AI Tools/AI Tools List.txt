@@ -1,0 +1,145 @@
+(Pre) reference sources
+###################################
+https://clickup.com/blog/ai-tools/
+https://clickup.com/blog/ai-tools-for-meeting-notes/
+https://clickup.com/blog/ai-tools-for-note-taking/
+https://clickup.com/blog/performance-management-tools/
+https://clickup.com/blog/ai-tools-for-devops/
+https://clickup.com/blog/workflow-automation/
+https://clickup.com/blog/task-automation-software/
+https://clickup.com/blog/best-productivity-tools-for-developers/
+https://www.upwork.com/hire/machine-learning-experts/
+
+Data Engineer requirement:
+https://www.coursera.org/articles/what-is-machine-learning-engineer
+Data scientist requirement:
+https://www.coursera.org/articles/what-is-a-data-scientist
+SQL Interview:
+https://www.coursera.org/articles/sql-interview-questions
+
+(A) Some general skill for AI:
+###################################
+(1) Prompt Engineering
+
+
+
+(B) Tools for AI:
+###################################
+
+General Chat Bot
+/////////////////////////////
+(1) ChatGPT4
+(2) Google Bard
+(3) Chatsonic
+(4) SecondBrain (customers support)
+(5) Chatfuel (customers support)
+(6) Kustomer (CS)
+
+
+
+Corporate 
+//////////////////////////
+(1) Paradox.ai (HRM)
+(2) Textio (HRM)
+    |__ talent acquisition tool designed to craft job descriptions and provide guidance for performance reviews.
+(3) MonkeyLearn (BI)
+(4) Effy (performance management software)
+
+~~~~~~
+SEO
+~~~~~~
+(1) SurferSEO
+(2) Clearscope
+(3) MarketMuse
+(4) Serpstat
+(5) SEMrush
+(6) Jasper (marketing)
+(7) RankScience 
+(8) Outranking
+(9) Alli AI (SEO/Marketing)
+(10) SEO.ai (SEO/Marketing)
+
+
+
+Creativity (Graphic)
+////////////////////////////////
+(1) Midjourney
+(2) DALL-E 3
+(3) Synthesia (video)
+(4) DeepBrain AI (video)
+(5) Descript (video and audio)
+(6) Designs.ai
+(7) DeepDream
+(8) Pikazo
+(9) Fliki (video)
+
+
+
+Creativity (Text)
+///////////////////////////////
+(1) HubSpot Free AI content Writer Tool
+(2) INK Suite (Content Assistant for Marketing & SEO)
+(3) Copyleaks (Detects plagiarism) 
+(4) Writer.ai
+(5) Divi AI (content creator)
+(6) Copy.ai
+
+
+Creativity (Music)
+////////////////////////////
+(1) LyricStudio
+
+
+
+Productivity
+////////////////////////////
+(1) SlidesAI
+(2) Canva: AI Slide Creator
+(3) Wordtune
+(4) ClickUp (project management) 
+(5) Spinach (for meeting assistance)
+(6) Sembly (for meeting assistance)
+(7) Fireflies (for meeting assistance) 
+(8) Krisp (for meeting assistance) 
+(9) Otter.ai (for meeting assistance) 
+(10) Fathom (for meeting assistance) 
+
+
+(A) Coding
+////////////////////////
+
+(Fundamental) OpenAI Codex
+|__ OpenAI Codex is a general-purpose programming model, meaning that it can be applied to essentially any programming task
+|__ https://openai.com/blog/openai-codex
+
+(1) aiXcoder
+(2) TabNine
+(3) GitHub Copilot
+(4) Amazon CodeWhisperer
+(5) Replit
+(6) Sourcegraph Cody
+(7) AskCodi
+(8) Codiga
+(9) Bugasura 
+(10) CodeWP
+(11) AI Helper Bot (generate SQL statement)
+(12) Android Studio Bot
+(13) Figstack (explaining the code)
+
+
+DevOps
+//////////////////////////
+source: https://clickup.com/blog/ai-tools-for-devops/
+(1) Amazon CodeGuru
+(2) Datadog
+(3) Sysdig
+(4) Snyk
+|__ https://www.youtube.com/@deepcodeai/videos
+
+(5) Harness
+(6) Dynatrace
+(7) Kubiya
+(8) Atlassian Intelligence
+
+
+
