@@ -52,3 +52,9 @@ $                                            $
 
 (6) "Code" -> "Markdown": it turn the current cell to be treated like some plain text without any execution
 
+
+(7) "tab" -> after typing the name of a certain object, you can press "tab" to show all the member functions of that object.
+
+
+(8) add """   """ -> you can add multiple lines of explanation inside the function. These explanation will show after typing the name of the functino
+                     and hit "shift" + "tab"

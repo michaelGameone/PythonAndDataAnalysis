@@ -119,3 +119,5 @@ command ==> pip
 *           (E) Python language               *
 *                                             *
 ===============================================
+
+Python doesn't support "++" operator
