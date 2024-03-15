@@ -111,15 +111,26 @@ command ==> exit()
 
 (b) install package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-command ==> pip install packageName
 
-e.g. pip install numpy
+linus command ==> pip install packageName
+------------------------------------------
+e.g1. pip install numpy
+e.g2  pip install pandas
+
+
+window command ==> python -m pip install packageName
+-----------------------------------------------------
+e.g. python -m pip install pandas
+
+
 
 for Anaconda distribution
-
+----------------------------
 command ==> conda install packageName
 
-e.g. conda install numpy
+e.g1. conda install numpy
+e.g2. conda install pandas
+
 
 
 ===============================================
