@@ -133,6 +133,19 @@ e.g2. conda install pandas
 
 
 
+Essential Package
+----------------------------------
+python -m pip install numpy
+python -m pip install pandas
+python -m pip install sqlalchemy
+python -m pip install lxml
+python -m pip install html5lib
+python -m pip install BeautifulSoup4
+python -m pip install openpyxl 
+
+
+
+
 ===============================================
 *                                             * 
 *           (E) Python language               *
