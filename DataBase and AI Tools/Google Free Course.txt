@@ -1,0 +1,35 @@
+Here are FREE AI courses from Google, that can benefit you and your children:
+
+1. Introduction to Large Language Models: Learn about the use cases and how to enhance the performance of large language models.
+• free
+
+2. Introduction to Generative Al: Discover the differences between Generative Al and traditional machine learning methods.
+• free
+
+3. Generative Al Fundamentals: Earn a skill badge by demonstrating your understanding of foundational concepts in Generative Al.
+• they may be adding a few for this soon
+
+4. Introduction to Responsible Al: Learn about the importance of Responsible Al and how Google implements it in its products.
+• free
+
+5. Encoder-Decoder Architecture: Learn about the encoder-decoder architecture, a critical component of machine learning for sequence-to-sequence tasks.
+• free
+
+6. Introduction to Image Generation: Discover diffusion models, a promising family of machine learning models in the image generation space.
+• free
+
+7. Transformer Models and BERT Model: Get a comprehensive introduction to the Transformer architecture and the Bidirectional Encoder
+Representations from the Transformers (BERT) model.
+• free
+
+8. Attention Mechanism: Learn about the attention mechanism, which allows neural networks to focus on specific parts of an input sequence.
+• free
+
+9. Overview of Generative Al Studio:
+This course explains how to prototype and customize generative Al models using Vertex Al's Generative Al
+Studio.
+• free
+
+10. Develop Models for Image Captioning:
+Discover how to use deep learning methods to develop a model for captioning images.
+• free
