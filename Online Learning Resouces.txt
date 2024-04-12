@@ -21,3 +21,6 @@ https://docs.python.org/3/extending/extending.html
 https://docs.python.org/3/extending/index.html
 
 
+Machine Learning for Everybody – Full Course
+|__ https://www.youtube.com/watch?v=i_LwzRVP7bg
+
