@@ -1,0 +1,23 @@
+OpenAI Tutorial
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Official website
+|__ https://platform.openai.com/docs/introduction
+
+Youtube
+|__ https://www.youtube.com/watch?v=NiQ_9xwS4v8
+|__ https://www.youtube.com/watch?v=Vurdg6yrPL8&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz
+|__ https://www.youtube.com/watch?v=CWK9KA-Levg&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz&index=2
+|__ https://www.youtube.com/watch?v=nr-mDSi9LxA&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz&index=8
+|__ https://www.youtube.com/watch?v=LX_DXLlaymg
+|__ https://www.youtube.com/watch?v=N4nX_rTwKx4
+
+
+
+Price
+|__ https://www.youtube.com/watch?v=FZq1Rkvc52g&list=PLpdmBGJ6ELUIYHjmzYTuePlNRf7yeCACz&index=12
+
+
+Embeddings
+~~~~~~~~~~~~~~~
+|__ Intro: https://www.youtube.com/watch?v=ySus5ZS0b94
+
