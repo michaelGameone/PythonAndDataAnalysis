@@ -1,0 +1,13 @@
+
+(1) Jenkins
+	- (a) C# Build
+	   https://www.youtube.com/watch?v=uC7vajbnZS4
+	   https://www.youtube.com/watch?v=HZOII16W0oY&list=PL6tu16kXT9PqIe2b0BGul-cXbmwGt7Ihw&index=1
+	   https://www.youtube.com/watch?v=GFeIoWmIGuk&list=PL6tu16kXT9PrDLGRFm0DYp-cMYmJgwsy3
+	   https://www.youtube.com/watch?v=tg_GxFzeAps
+	
+	- (b) Tutorial
+	   https://www.youtube.com/watch?v=f4idgaq2VqA
+	   https://www.youtube.com/watch?v=FX322RVNGj4
+	   
+	   
